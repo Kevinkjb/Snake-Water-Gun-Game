@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("imgs/forest.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+.head-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    font-size: 3rem;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.game-img{
+    cursor: pointer;
+    width: 250px;
+}
+.champion-snake-one, .champion-gun-one, .champion-water-one{
+    flex-direction: column;
+    display: flex;
+}
+
+button{
+    padding: .5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 2rem;
+    cursor: pointer;
+}
